@@ -13,22 +13,16 @@ Original oGlow Features
 
 New oGlow 3.0 Features
 -------
-- Optional inward glow from a chosen quality and up
-- `/oglow` settings: thickness, offset, radius, alpha, glow size, glow alpha of the borders
+- Borders and inward glow are now rendered with adjustable thickness, size, offsets, alpha, radius, so you can tweak the look to your preference
+- `/oglow` settings: moved the settings to an independent window for easier real time previewing of changes
 - Per-side directional offsets and a quality color picker (with reset)
 - Min. quality for the border and a separate min. quality for the glow
-
-Notes
------
-- Disabled automatically if Fizzle is loaded (character and inspect pipes)
-- `/oglow` opens the config; Escape closes it
-- Settings are saved in `oGlowDB`
 
 Screenshots
 --------
 
 <p align="center">
-  <img width="932" height="637" alt="image" src="https://github.com/user-attachments/assets/PLACEHOLDER" />
+  <img width="831" height="698" alt="image" src="https://github.com/user-attachments/assets/03b1a46a-8a06-408b-8874-24d4dd6118e8" />
   <br>
   <em>Bags: quality-colored borders and inward glow on item icons</em>
 </p>
@@ -36,7 +30,7 @@ Screenshots
 <br>
 
 <p align="center">
-  <img width="924" height="632" alt="image" src="https://github.com/user-attachments/assets/PLACEHOLDER" />
+  <img width="722" height="802" alt="image" src="https://github.com/user-attachments/assets/2b65f19a-2ecb-4413-b581-17c04b4712dc" />
   <br>
   <em>Settings: border, glow, quality thresholds, and colors</em>
 </p>
